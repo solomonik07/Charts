@@ -1,0 +1,35 @@
+.container {
+  padding: 20px 0;
+
+  :global {
+    .grid-lines line {
+      stroke: rgba(31, 34, 44, 0.36);
+      stroke-dasharray: 2, 2;
+    }
+
+    .domain {
+      stroke: transparent !important;
+    }
+
+    .tick {
+      text {
+        fill: #9AA0AB;
+      }
+      line {
+        stroke: transparent !important;
+      }
+    }
+  }
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #9AA0AB !important;
+  margin-right: 20px;
+}
+
+

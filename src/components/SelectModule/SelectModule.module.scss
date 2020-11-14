@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #E0E5EC;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #495056 !important;
+  margin-right: 20px;
+}
